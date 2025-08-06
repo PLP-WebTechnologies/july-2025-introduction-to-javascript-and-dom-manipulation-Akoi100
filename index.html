@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Fundamentals</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>JavaScript Fundamentals</h1>
+    </header>
+
+    <main>
+        <section id="user-input">
+            <h2>User Input</h2>
+            <input type="text" id="inputField" placeholder="Enter something...">
+            <button onclick="processInput()">Submit</button>
+            <p id="output"></p>
+        </section>
+
+        <section id="functions">
+            <h2>Functions</h2>
+            <button onclick="calculateTotal()">Calculate Total</button>
+            <button onclick="formatString()">Format String</button>
+            <p id="functionOutput"></p>
+        </section>
+
+        <section id="loops">
+            <h2>Loops</h2>
+            <button onclick="iterateArray()">Iterate Array</button>
+            <button onclick="countdown()">Start Countdown</button>
+            <p id="loopOutput"></p>
+        </section>
+
+        <section id="dom-manipulation">
+            <h2>DOM Manipulation</h2>
+            <button onclick="changeText()">Change Text</button>
+            <button onclick="toggleClass()">Toggle Class</button>
+            <button onclick="createElement()">Create Element</button>
+            <p id="domOutput">This text will change.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 JavaScript Fundamentals. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
